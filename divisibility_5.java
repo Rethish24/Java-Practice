@@ -12,6 +12,6 @@ public class divisibility_5 {
         } else {
             System.out.print(n + " is  not divisible by 5");
         }
-
+in.close();
     }
 }

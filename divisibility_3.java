@@ -18,6 +18,6 @@ public class divisibility_3 {
         } else {
             System.out.print(num + " is not divisible by 3");
         }
-
+in.close();
     }
 }

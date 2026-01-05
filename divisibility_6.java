@@ -25,6 +25,6 @@ public class divisibility_6 {
         else {
             System.out.print(num + " is not divisible by 6");
         }
-
+in.close();
     }
 }

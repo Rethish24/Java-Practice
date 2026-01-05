@@ -12,6 +12,6 @@ public class divisibility_4 {
         } else {
             System.out.print(n + " is  not divisible by 4");
         }
-
+in.close();
     }
 }

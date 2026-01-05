@@ -12,6 +12,6 @@ public class divisibility_2 {
         } else {
             System.out.print(n + " is  not divisible by 2");
         }
-
+    in.close();
     }
 }
