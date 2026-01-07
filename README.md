@@ -17,4 +17,50 @@ Key Points:-
 7.Escape Sequences and their function ( \n , \t , \" , \', \\,\b).
 
 
+Date:-7/1/2026
+About compiler and interpreter and difference between them .
+
+1.Compiler - 
+A Translator that converts /transforms the source code into byte code("Intermediate code/Assembly Language").
+compiles all the code at once and displays the errors at specific lines 
+The compliation becomes succesful if and only if all the errors are resolved and the program runs.
+*** Advantage of compiled languages have less run time than interpreted languages.
+(Half/semi transaltion +error checking )
+
+2.Interpreter -
+A Translator that interprets the source code into machine code("binary Language") at run time.
+interprets the code line by line and displays the error directly when it occurs and it stops the process of interpretation.
+
+But , unlike the compiler the previous output of the code before the error arises is diplayed succesfully.
+
+Remaining code is interpreted after the error in the particular is resloved.
+
+*** More run time than compiled languages .(transaltion +error checking)
+
+_____.java________                       ____.class________                        ________________
+|             |                            |            |                          |              |
+| Source code |  ---------compiler-------->| Bytecode   |--------Interpreter------>|Machine code  |
+ _____________                             |____________|                          |______________|
+
+        High                                     Assembly                         Binary            
+        Level                                    Language                       Language
+       Language                               (intermediate code)                 
+
+
+       *** JAVA is both compiled and interpreted language and is faster than python becoz of less run time .
+    ** UNITS of memory in computers
+    (Bit)Binary Digit -- 0 & 1
+    **** 8 bits = 1 byte.
+    **** 4 bits = 1 nibble.
+
+    10*3 bytes = 1 KB(kilo) 
+    10*6 bytes = 1 MB(mega)
+    10*9 bytes = 1 GB(giga)
+
+    Fundamentals of computer program:
+    
+    1.variables that contain data
+    2.Algorithm
+    3.Control flow(conditionals/loops)
+
 
