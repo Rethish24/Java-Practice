@@ -63,4 +63,27 @@ _____.java________                       ____.class________                     
     2.Algorithm
     3.Control flow(conditionals/loops)
 
+    Variable
+    constant 
+    literal
+    declare,initialize,assign
+    Data Type(primitive,non-primitive)
+    size of each data type
+
+Date:- 8/1/2026  
+   Taking Inputs from the user through  Scanner class.
+***
+   Scanner is an object/entity which is used to take input from the user 
+   for example like a remote with different buttons {nextInt(),nexxtFloat(),etccc}
+   Syntax:- Scanner sc = new Scanner (System.in);
+   sc ---> rference to the object/refers to the scanner obj or stores the address of the scanner obj /scanner name  {not onbly sc can be anything like a b in etc }
+
+***import java.util.*;
+meaning ---> import all the files/functions in util pacakage(floders) from the  java standard library.
+
+
+
+
+
+
 
