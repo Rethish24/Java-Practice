@@ -71,6 +71,7 @@ _____.java________                       ____.class________                     
     size of each data type
 
 Date:- 8/1/2026  
+
    Taking Inputs from the user through  Scanner class.
 ***
    Scanner is an object/entity which is used to take input from the user 
@@ -80,6 +81,57 @@ Date:- 8/1/2026
 
 ***import java.util.*;
 meaning ---> import all the files/functions in util pacakage(floders) from the  java standard library.
+
+Date:-9/1/2026
+
+****
+Operators - opeartor is a symbol that perform opeartions on variables,values .
+
+Mathematical/Arithmetic opeartors - + ,- ,* , / (floor divison---> quotient), % (modulo divison-->remainder).
+mathematical operation of two same datatypes gives the output in the same data type.
+
+Relational Operators ---> establish the realtions b/w the diff variables 
+(>,<,>=,<=,==,!=)   .
+output of relational operators is always a boolean value.
+
+Assignment Operator.
+--->first evaluates the left hand side expression and then assigns to the variable .
+=,+=,-=,*=,/=,%=
+
+logical opeartors
+&& , || , !
+Combine multiple expressions and evaluate them and gives the result in boolean(true / false).
+
+****
+**operator precendence
+(priority of the operator  used when an expresiion is given with multiple operators)
+
+BEDMAS = -----> bracket > exponential > divison/multiplication >addition/subtraction.
+(like bodmas in maths).
+example:
+2+(5*(4/2))*6
+1.bracket ---(5*(4/2))
+2.again choose bracket(4/2) --divison =2
+3.(5*2) --- product 10
+4.product(*) >>> addition (+) choose * ===> 10*6 == 60
+5.2+60 =62
+
+
+if opeartors of same precedence are araised then use associativity(left to right or  ***right to left(assignment opeartor))
+
+example:
+
+2+4*5+5*8
+[           * > + (so choose multiplication over the addition)           ]
+again we have two * * .so start from left to right
+2+20+5*8
+2+20+40
+again ( we have two  + + ).so start from left to right 
+22+40
+62
+
+TYPE CASTING :
+
 
 
 
