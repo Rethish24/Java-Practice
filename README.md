@@ -1,4 +1,14 @@
 # Java-Practice
+
+I am starting my  programming journey
+Basics:
+ 
+JDK { JRE { JVM } } }
+JDK = JRE+developer tools
+JDK ---> Respomsible for compiling (source code to byte code) and have tools like compiler , debugger etccc  + Java Run time enivnorment
+          JRE---->Core libraries(a package of basic input output system out  etccc) + JVM (java Virtual Machine)
+                  JVM------->  .class file (byte code to machine code)  output of program.
+
 ...I am starting my  programming journey  
 
 Date:- 5/1/2026
@@ -135,6 +145,8 @@ TYPE CASTING :-
 process of converting / changing a value from one data type to another data type is know as type castimg . 
 
 implicit / widening type casting :-
+
+
 
 
 
