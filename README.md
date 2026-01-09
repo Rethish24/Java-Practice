@@ -130,7 +130,12 @@ again ( we have two  + + ).so start from left to right
 22+40
 62
 
-TYPE CASTING :
+TYPE CASTING :-
+
+process of converting / changing a value from one data type to another data type is know as type castimg . 
+
+implicit / widening type casting :-
+
 
 
 
