@@ -135,7 +135,7 @@ example:
 [           * > + (so choose multiplication over the addition)           ]
 again we have two * * .so start from left to right
 2+20+5*8
-2+20+40
+2+20+40                  
 again ( we have two  + + ).so start from left to right 
 22+40
 62
