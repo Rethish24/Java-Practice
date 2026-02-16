@@ -1,3 +1,4 @@
+package Divisibility;
 import java.util.*;
 
 public class divisibility_4 {
