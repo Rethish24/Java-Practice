@@ -1,7 +1,8 @@
-package twoDArrays;
+import  java.io.*;
 import java.util.*;
+
 class Solution {
-public int[][] rotateBy90(int [][]a) {
+    public int[][] rotateBy90(int [][]a) {
         // Your code here
         int n=a.length;
         for(int i=0;i<n;i++)
@@ -34,7 +35,7 @@ public int[][] rotateBy90(int [][]a) {
     }
 }
 
-public class rotateby90cw {
+public class RotateMatrixby90cw {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n, m;

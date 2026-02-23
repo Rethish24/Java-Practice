@@ -1,10 +1,7 @@
-package twoDArrays;
+import java.util.*;
 
-import java.util.Scanner;
-
-class Solution 
-{
-public int[][] matrixTranspose(int[][] mat, int n) {
+class Solution {
+    public int[][] matrixTranspose(int[][] mat, int n) {
        //Write your code here
        for(int i=0;i<n;i++)
        {
@@ -23,8 +20,7 @@ public int[][] matrixTranspose(int[][] mat, int n) {
 }
 }
 
-public class Transpose
- {
+public class Transposeofmatrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n;
@@ -42,5 +38,5 @@ public class Transpose
                   } System.out.println("");
         }
         sc.close();
-    }    
+    }
 }
