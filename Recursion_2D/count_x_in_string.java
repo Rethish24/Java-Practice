@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion_2D;
 
 import java.util.Scanner;
 
