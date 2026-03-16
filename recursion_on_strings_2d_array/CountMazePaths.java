@@ -1,6 +1,8 @@
 package recursion_on_strings_2d_array;
 import java.util.Scanner;
-static int countMazePath(int sr,int sc,int n, int m,String asf)
+
+public class CountMazePaths {
+    static int countMazePath(int sr,int sc,int n, int m,String asf)
     {
         //Write your code here
         if(sr==n && sc==m)
@@ -24,5 +26,6 @@ static int countMazePath(int sr,int sc,int n, int m,String asf)
         int m, n;
         n = sc.nextInt();
         m = sc.nextInt();
-        System.out.println(countMazePath(1,1,n, m,""));
+            System.out.println(countMazePath(1,1,n, m,""));
+        }
     }
