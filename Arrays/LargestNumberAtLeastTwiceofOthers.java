@@ -53,7 +53,7 @@ public class LargestNumberAtLeastTwiceofOthers
     }
 }
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n;
@@ -64,7 +64,8 @@ public class Main {
             nums[i] = sc.nextInt();
         }
 
-        Solution Obj = new Solution();
+        LargestNumberAtLeastTwiceofOthers Obj = new LargestNumberAtLeastTwiceofOthers();
         System.out.println(Obj.LargestElement(nums, n));
+        sc.close();
     } 
 }

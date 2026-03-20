@@ -1,5 +1,6 @@
 package Recursion_2D;
-public class pair_Star 
+import java.util.Scanner;
+public class pair_star 
 {
     static String PairStar(String str,int i,StringBuilder sb) 
     {
@@ -24,6 +25,7 @@ public class pair_Star
         String s = sc.nextLine();
         StringBuilder sb = new StringBuilder();
         System.out.println(PairStar(s,0,sb));
+        sc.close();
     }
 }
 
