@@ -1,6 +1,6 @@
 package Strings;
 
-import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class shufflestring 

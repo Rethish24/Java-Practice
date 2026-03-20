@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class hey 
 {
   
-       static String hey(String str)
+       public static String hey(String str)
       {
            // Your code here
            int n=str.length();
