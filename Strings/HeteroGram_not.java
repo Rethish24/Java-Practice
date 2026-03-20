@@ -24,5 +24,6 @@ public static void main(String [] args)
             alpha[k]=1;
         }
         System.out.println(result);
+        sc.close();
     }    
 }

@@ -18,6 +18,7 @@ public class FirstOccurenceIndex
 		int[] A = takeInput();
 		int T = s.nextInt();
 		System.out.println(firstIndex(A, T, 0));
+		s.close();
 	}
 
 	static int firstIndex(int A[],int T,int startIndex)

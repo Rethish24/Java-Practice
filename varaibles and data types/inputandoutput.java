@@ -13,5 +13,6 @@ public class inputandoutput
        System.out.println(myInt1);
        System.out.println(myInt2);
 
+        sc.close();
     }
 }

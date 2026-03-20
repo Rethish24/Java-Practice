@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class Chessboardmatrix{
@@ -14,6 +13,7 @@ public class Chessboardmatrix{
         }
         alternateMatrixSum(mat,n);  
         System.out.println('\n');
+        sc.close();
     }
 
     public static void alternateMatrixSum(int [][]mat, int n) 

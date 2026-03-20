@@ -27,5 +27,6 @@ public class maze_path
         n = sc.nextInt();
         m = sc.nextInt();
         countMazePath(1,1,n, m,"");
+        sc.close();
     }
 }

@@ -15,6 +15,7 @@ public static void main(String[] args) throws Throwable {
         }
         int ans=ArrayProblem2(n,arr);
         System.out.println(ans);
+        sc.close();
     }
     public static int ArrayProblem2(int n, int[] arr)
     {

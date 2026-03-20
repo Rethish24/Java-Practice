@@ -49,6 +49,7 @@ public class whichangledtraingle
         //Write your code here
     
 	
+sc.close();
 }
 
 }

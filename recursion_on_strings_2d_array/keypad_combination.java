@@ -84,5 +84,6 @@ static void printKPC(String str,int i,String asf)
         String str;
         str = sc.nextLine();
         printKPC(str,0,"");
+        sc.close();
     }    
 }

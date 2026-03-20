@@ -37,5 +37,6 @@ public class StrangeString
             int n = input.nextInt();
             System.out.println(strangeString(n));
         }
+        input.close();
     } 
 }

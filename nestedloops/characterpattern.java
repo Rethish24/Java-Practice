@@ -19,5 +19,6 @@ public class characterpattern
         ch++;
         System.out.println();
        }
+        sc.close();
     }
 }

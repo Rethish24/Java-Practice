@@ -15,5 +15,6 @@ public class subsequences_of_string
              {         Scanner sc = new Scanner(System.in);        
                         String s = sc.nextLine();         
                         printSubsequence(s,"",0);     
+                 sc.close();
              }     
 }

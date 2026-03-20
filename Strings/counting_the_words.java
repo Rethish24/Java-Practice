@@ -8,12 +8,13 @@ public class counting_the_words
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int t = sc.nextInt();
-    String p = sc.nextLine();
+  
     while (t > 0) {
       String s = sc.nextLine();
       System.out.println(countWords(s));
       t--;
     }
+  sc.close();
   }
 
   public static int countWords(String s) 

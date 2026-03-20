@@ -24,6 +24,7 @@ public static long ways(int n, int i)
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         System.out.println(ways(n, 1));
+        input.close();
     }
 
 }

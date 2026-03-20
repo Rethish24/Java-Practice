@@ -1,4 +1,4 @@
-package Recursion;
+
 import java.util.Scanner;
 
 public class mutliplication 
@@ -22,5 +22,6 @@ public class mutliplication
         int n=sc.nextInt();
         int m=sc.nextInt();
         mul(n,m);
+         sc.close();
      }
     }

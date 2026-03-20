@@ -12,6 +12,7 @@ public class last_occurance
 		}
 		int T = s.nextInt();
 		System.out.println(lastIndex(A, T, A.length-1));
+	s.close();
 	}
 
 	static int lastIndex(int A[],int T,int k)

@@ -12,6 +12,7 @@ public static void main(String[] args)
         for (int i = 0; i < n; i++)
             arr[i] = sc.nextInt();
         System.out.println(sumofArrayRec(arr,0 ,n));
+        sc.close();
     }
 
 	public static int sumofArrayRec(int[] arr,int idx,int n) 

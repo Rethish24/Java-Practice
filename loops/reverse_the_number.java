@@ -27,5 +27,6 @@ public class reverse_the_number
             n=n/10;
         }
         System.out.println(rev);
+        sc.close();
     }
 }

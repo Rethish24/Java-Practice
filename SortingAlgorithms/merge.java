@@ -15,7 +15,7 @@ static void mergeSort(int[] arr,int l,int r)
           mergeSort(arr,mid+1,r);
           merge(arr,l,mid,r);
         }
-        public static void merge(int []arr,int l,int m,int r)
+        public static void  merge(int[] arr,int l,int m,int r)
         {
             int []fh=new int[m-l+1];
             for(int i=0,j=l;i<fh.length;i++,j++)
@@ -72,5 +72,6 @@ static void mergeSort(int[] arr,int l,int r)
         mergeSort(a,0,n-1);
         for (int i = 0; i < n; i++)
             System.out.print(a[i] + " ");
+        input.close();
     }    
 }

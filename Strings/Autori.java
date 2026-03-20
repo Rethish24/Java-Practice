@@ -8,7 +8,7 @@ Output
 
 KMP
  */
-import java.io.*;
+
 import java.util.*;
 
 public class Autori{
@@ -41,5 +41,6 @@ public class Autori{
         String result = autori(str);
         System.out.print(result);        
         System.out.println('\n');
+        sc.close();
     }
 }

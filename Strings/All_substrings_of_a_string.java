@@ -21,5 +21,6 @@ static void SubString(String str)
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         SubString(str);
+        sc.close();
     }    
 }

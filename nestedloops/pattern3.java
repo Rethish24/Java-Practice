@@ -45,5 +45,6 @@ public class pattern3
 
         //Write your code here and print the required output
 
+        s.close();
     }
 }

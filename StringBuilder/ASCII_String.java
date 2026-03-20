@@ -1,6 +1,5 @@
 package StringBuilder;
 
-import java.io.*;
 import java.util.*;
 public class ASCII_String{
   
@@ -28,5 +27,6 @@ public class ASCII_String{
     Scanner scn = new Scanner(System.in);
     String str = scn.next();
     System.out.println(solution(str));
+  scn.close();
   }
 }

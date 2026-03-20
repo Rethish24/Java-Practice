@@ -25,5 +25,6 @@ static String noX(String s,int idx,StringBuilder sb)
         String s = sc.nextLine();
         StringBuilder sb =new StringBuilder();
         System.out.println(noX(s,0,sb));
+        sc.close();
     }    
 }

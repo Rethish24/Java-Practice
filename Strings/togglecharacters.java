@@ -8,6 +8,7 @@ public static void main(String[] args) throws Throwable {
     sc.nextLine();
     String str = sc.nextLine();
     toggleCase(n, str);
+  sc.close();
   }
 
   static void toggleCase(int n, String str) 

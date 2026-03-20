@@ -20,5 +20,6 @@ public class staircase
             }
             System.out.println();
         }
+        scn.close();
     }
 }

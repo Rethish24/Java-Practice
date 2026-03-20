@@ -16,6 +16,7 @@ static Scanner s = new Scanner(System.in);
 		int[] A = takeInput();
 		int T = s.nextInt();
 		System.out.println(firstIndex(A, T, 0));
+		s.close();
 	}
 
 	static int firstIndex(int A[],int T,int idx)

@@ -75,5 +75,6 @@ public class spiral2matrix {
             }
             System.out.println();
         }
+        sc.close();
     }    
 }

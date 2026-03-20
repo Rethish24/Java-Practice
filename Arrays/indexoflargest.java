@@ -23,6 +23,7 @@ public static void main(String[] args) throws Throwable {
         }
         int ans=ArrayProblem1(n,arr);
         System.out.println(ans);
+        sc.close();
     }
 
     public static int ArrayProblem1(int n, int[] arr){

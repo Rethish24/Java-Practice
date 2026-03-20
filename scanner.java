@@ -20,5 +20,6 @@ public class scanner
         System.out.println(b);
 
 
+        sc.close();
     }
 }

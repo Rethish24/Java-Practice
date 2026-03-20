@@ -15,6 +15,7 @@ public class Pascal
             }
             System.out.println();
         }
+        sc.close();
     }
 
 	public static ArrayList<ArrayList<Integer>> pascalTriangle(int n) 

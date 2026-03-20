@@ -48,5 +48,6 @@ public  static void isPangram(String s)
         String s = input.nextLine();
         isPangram(s);
         
+        input.close();
     }    
 }

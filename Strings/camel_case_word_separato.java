@@ -45,5 +45,6 @@ public class camel_case_word_separato
     Scanner scn = new Scanner(System.in);
     String str = scn.next();
     solution(str);
+  scn.close();
   }   
 }

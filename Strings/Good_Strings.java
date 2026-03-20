@@ -48,5 +48,6 @@ static int goodStrings(String s, String[] A, int n)
 
       System.out.println(goodStrings(s, A, n));
     }
+  sc.close();
   }    
 }

@@ -28,5 +28,6 @@ static void printStairPaths(int n,String s)
         int n;
         n = sc.nextInt();
         printStairPaths(n,"");
+        sc.close();
     }    
 }

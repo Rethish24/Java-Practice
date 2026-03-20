@@ -1,3 +1,5 @@
+package nestedloops;
+
 import java.util.*;
 
 public class OptimusPrime {
@@ -21,5 +23,6 @@ public class OptimusPrime {
             }
         }
         // Your code here
+        sc.close();
     }
 }

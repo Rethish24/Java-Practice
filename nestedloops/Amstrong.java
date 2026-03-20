@@ -21,5 +21,6 @@ class Amstrong {
                 System.out.println(i);
             }
         }
+        sc.close();
     }
 }

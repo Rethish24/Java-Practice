@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Scanner;
 
 public class sumofarrayexceptitself 
@@ -43,5 +45,6 @@ Return the resultant array as asked in question.
 
         for(int a : Ans)
             System.out.print(a + " ");
+        sc.close();
     }
 }

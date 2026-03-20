@@ -41,5 +41,6 @@ static void oddEvenSort(int a[], int n)
             array[i]= sc.nextInt();
         }
         oddEvenSort(array,n);
+        sc.close();
     }    
 }

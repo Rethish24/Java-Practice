@@ -20,5 +20,6 @@ static int countX(String str, int i, int n)
         String str = sc.nextLine();
         int n=str.length();
         System.out.println(countX(str,0,n));
+        sc.close();
     }    
 }

@@ -45,5 +45,6 @@ public class smallest_greater_elements_bs
         for(int a : ans) {
             System.out.print(a + " ");
         }  
+sc.close();
 }
 }

@@ -16,6 +16,7 @@ public class spiraltraversalofmatrix
 
         spirallyTraverse(mat);     
         System.out.println('\n');
+        sc.close();
     }
 
     public static void spirallyTraverse(int [][]a) 

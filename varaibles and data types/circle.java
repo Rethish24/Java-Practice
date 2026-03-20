@@ -16,5 +16,6 @@ public class circle
             long peri =2*3*r;
             System.out.println(area);
             System.out.println(peri);
+        sc.close();
     }  
 }

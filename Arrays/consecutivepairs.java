@@ -35,5 +35,6 @@ public static int ArrayProblem(int []arr,int k)
                 arr[i]=sc.nextInt();
         }
         System.out.println(ArrayProblem(arr,k)); 
+        sc.close();
     }
 }

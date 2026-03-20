@@ -37,5 +37,6 @@ public void printPermutations(String str,String res,ArrayList<String> ans)
         string_Permutations Obj = new string_Permutations();
         ArrayList<String> ans = new ArrayList<>();
         Obj.printPermutations(str,"",ans);
+        sc.close();
     }    
 }

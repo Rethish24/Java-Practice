@@ -23,5 +23,6 @@ public class temperatureconversion
         float tempc=t.nextInt();
         float tempf=((9*tempc)/5)+32;
         System.out.printf("%.6f",tempf);
+        t.close();
     }
 }

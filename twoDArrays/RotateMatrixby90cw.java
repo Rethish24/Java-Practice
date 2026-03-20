@@ -1,4 +1,3 @@
-import  java.io.*;
 import java.util.*;
 
 class Solution {
@@ -56,5 +55,6 @@ public class RotateMatrixby90cw {
                   } System.out.println("");
         }
         System.out.println('\n');
+        sc.close();
     }
 }

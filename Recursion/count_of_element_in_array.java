@@ -21,5 +21,6 @@ static int array11(int[] nums, int i)
             arr[i] = sc.nextInt();
         }
         System.out.println(array11(arr, 0));
+        sc.close();
     }    
 }

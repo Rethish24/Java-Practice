@@ -9,5 +9,6 @@ public class Stringoperations
          Scanner sc = new Scanner(System.in);
          String s=sc.nextLine();
          System.out.println("Hi my name is Agent "+s);
+        sc.close();
     }
 }

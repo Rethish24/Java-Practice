@@ -30,5 +30,6 @@ public class hey
         String result = hey(str);
         System.out.print(result);        
         System.out.println('\n');
+        sc.close();
     }    
 }

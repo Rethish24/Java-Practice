@@ -38,5 +38,6 @@ public static void main(String[] args)
 	ArrayList<Integer> list = removeComposite(arr, n);
     for(int val : list) System.out.print(val+" ");
 
+sc.close();
 }
 }

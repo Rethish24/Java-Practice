@@ -35,6 +35,7 @@ public class printdigits
             i++;
         }
         
+        sc.close();
     }
 
 

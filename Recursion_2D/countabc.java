@@ -20,5 +20,6 @@ public class countabc
         String s = sc.nextLine();
         System.out.println(CountABC(s, 0,s.length()-1));
 
+        sc.close();
     }
 }

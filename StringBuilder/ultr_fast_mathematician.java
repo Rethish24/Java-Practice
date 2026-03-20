@@ -12,6 +12,7 @@ public class ultr_fast_mathematician
         StringBuilder b= new StringBuilder(B);
         StringBuilder c=solve(a,b);
         System.out.println(c);
+        scn.close();
     }
     static StringBuilder solve(StringBuilder a, StringBuilder b)
     {

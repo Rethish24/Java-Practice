@@ -10,6 +10,7 @@ public static void main(String[] args) {
         }
         
         insertionSort(array,n);
+        sc.close();
     }
 	 static void insertionSort(int a[], int n)
     {

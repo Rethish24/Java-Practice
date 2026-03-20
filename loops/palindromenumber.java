@@ -36,6 +36,7 @@ public class palindromenumber {
             System.out.println("false");
         }
         //Write your code here and print the required output
+        sc.close();
     }
     
 }

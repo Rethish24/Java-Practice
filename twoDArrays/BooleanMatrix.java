@@ -18,6 +18,7 @@ public class BooleanMatrix {
             }
             System.out.print("\n");
         }
+        sc.close();
     }
 
     public static int[][] BooleanMatrixProblem(int m,int n,int[][] mat)

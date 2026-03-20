@@ -18,5 +18,6 @@ public class whichcase
         System.out.println(-1); 
       }
 
+      sc.close();
     }
 }

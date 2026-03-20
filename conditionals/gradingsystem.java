@@ -27,5 +27,6 @@ public class gradingsystem
        {
          System.out.println("Below Expectations");
        }
+        sc.close();
     }
 }

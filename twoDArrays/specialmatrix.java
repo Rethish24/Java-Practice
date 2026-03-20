@@ -44,6 +44,7 @@ static boolean special(int matrix[][], int n){
             boolean ans = special(matrix, n);
             System.out.println(ans);
         }
+        sc.close();
     }    
 
 }

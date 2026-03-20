@@ -38,5 +38,6 @@ public class palindrome
         String str=sc.nextLine();
         int result = isPalindrome(str);
         System.out.println(result);        
+        sc.close();
     }  
 }

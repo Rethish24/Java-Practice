@@ -25,5 +25,6 @@ public class climbing_stairs{
         int n = sc.nextInt();
         Accio Obj = new Accio();
         System.out.println(Obj.ClimbingStairs(0,n));
+        sc.close();
     }
 }

@@ -41,5 +41,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Solution solution = new Solution();
         solution.solve(sc);
+        sc.close();
     }
 }

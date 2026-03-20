@@ -24,5 +24,6 @@ public class optimusprime
             }
         }
         
+        sc.close();
     }    
 }

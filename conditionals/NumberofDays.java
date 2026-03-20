@@ -20,6 +20,7 @@ public class NumberofDays
        {
               System.out.println(28);
         }
+        sc.close();
     }
 
 }

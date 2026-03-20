@@ -15,6 +15,7 @@ public class CmaelCase
       System.out.println(); 
       
     }
+  sc.close();
   }
 
   static void camelCase(String s) 

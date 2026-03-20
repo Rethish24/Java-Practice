@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.*;
 public class WhichArraySumIsLarger {
     public static void main(String[] args) {
@@ -17,6 +19,7 @@ public class WhichArraySumIsLarger {
         }
         
         System.out.println(ArrayProblem(arrA,arrB)); 
+        sc.close();
     }
     public static String ArrayProblem(int []arrA,int []arrB)
     {

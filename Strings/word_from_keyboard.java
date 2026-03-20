@@ -64,5 +64,6 @@ public class word_from_keyboard
         for(int i = 0; i < result.size(); i++){
             System.out.println(result.get(i));
         }
+        sc.close();
     }
 }

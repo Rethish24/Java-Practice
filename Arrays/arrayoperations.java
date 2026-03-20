@@ -21,6 +21,7 @@ public static void main(String[] args) {
                 arr[i] = scanner.nextInt();
 
         ArrayOperations(arr, n);
+        scanner.close();
     }
 
     public static void ArrayOperations(int[] arr, int n) 

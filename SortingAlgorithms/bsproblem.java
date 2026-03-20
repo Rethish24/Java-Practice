@@ -34,5 +34,6 @@ public class bsproblem
         for(int i=0;i<n;i++)
             arr1[i] = sc.nextInt();
        bubbleSort(arr1, n);
+        sc.close();
     }    
 }

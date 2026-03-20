@@ -53,6 +53,7 @@ public class Main {
         String q = sc.next();
         int ans = Solution.isCyclicRotation(p, q);
         System.out.println(ans);
+        sc.close();
     }
 }    
 }

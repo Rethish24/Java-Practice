@@ -11,6 +11,7 @@ public static void main(String[] args) {
         for(int i=0;i<n;i++)
             arr1[i] = sc.nextInt();
         findX(arr1,0,n, x);
+        sc.close();
     }
 
 

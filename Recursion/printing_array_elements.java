@@ -12,6 +12,7 @@ public static void main(String[] args) {
         for(int i = 0; i < n; i++)
             arr[i] = sc.nextInt();
         PrintArray(arr,0,n);
+        sc.close();
     }
 
 	public static void PrintArray(int[] arr,int idx ,int n) 

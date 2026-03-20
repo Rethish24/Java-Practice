@@ -68,5 +68,6 @@ public class all_distinct_palindromic_substrings
         String s = sc.nextLine();
 
         palindromeSubStrs(s);
+        sc.close();
     }  
 }

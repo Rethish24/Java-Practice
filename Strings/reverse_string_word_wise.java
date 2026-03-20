@@ -1,8 +1,6 @@
 package Strings;
 
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 public class reverse_string_word_wise {
    
     public static String reverseWords(String str)
@@ -23,11 +21,11 @@ public class reverse_string_word_wise {
 
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        String p = sc.nextLine();
         while (t > 0) {
             String s = sc.nextLine();
             System.out.println(reverseWords(s));
             t--;
         }
+        sc.close();
     }
 }

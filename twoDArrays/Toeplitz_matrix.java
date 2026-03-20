@@ -34,5 +34,6 @@ public class Toeplitz_matrix {
         Solution Obj = new Solution();
         boolean ans = Obj.isToeplitzMatrix(A,m,n);
         System.out.println(ans);
+        sc.close();
     }
 }

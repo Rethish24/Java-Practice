@@ -12,6 +12,7 @@ public static void main (String[] args) {
 		}
         int result=maxElement(nums,0);
         System.out.print(result);
+        sc.close();
     }
 
     public static int maxElement(int[] arr,int i)

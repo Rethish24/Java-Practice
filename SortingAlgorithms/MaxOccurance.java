@@ -45,5 +45,6 @@ static int maximum_occurrence(int a[], int n)
         }
         System.out.print(maximum_occurrence(arr, n));
 
+        sc.close();
     }    
 }

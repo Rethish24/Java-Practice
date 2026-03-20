@@ -26,5 +26,6 @@ static boolean isPalindrome(String str,int si,int ei)
             System.out.print("YES");
         else
             System.out.print("NO");
+        sc.close();
     }    
 }

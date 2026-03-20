@@ -12,6 +12,7 @@ public static void main(String[] args) throws Throwable {
         for (int i = 0; i < triangle.size(); i++) {
             System.out.print(triangle.get(i) + " ");
         }
+        sc.close();
     }
 
 	public static ArrayList<Integer> pascalTriangleRow(int n) 
