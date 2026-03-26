@@ -1,3 +1,5 @@
+package Oops;
+
  import java.util.Scanner;
 
 class ComplexNumbers 
@@ -32,7 +34,7 @@ class ComplexNumbers
 
 }
 
-class complex_numbers {
+class Complex_Numbers {
 
 	public static void main(String args[]) {
 
