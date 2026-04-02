@@ -1,0 +1,25 @@
+/*
+
+
+A List can be represented by using only two things : array or linked list 
+
+Linked list : Arrangement of several objects of same class linearly ;
+
+
+A linked list is c reated by using nodes , where a node contains a data part and next part .
+
+
+data stores tthe data like string,num etc ..
+where next store the address of the object of same class it is further connected to .
+
+
+Models :
+1. adding a node at the start of linked list   
+2. remove the first node .
+3. remove at specific pos .
+4.adding at specific pos.
+5.finding middle in ll;
+6.reverse
+7.
+
+*/
