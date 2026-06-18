@@ -1,11 +1,51 @@
 import java.util.Scanner;
-
 public class second_largest_in_array 
 {
 public static void SecondLargest(int[] arr, int n) 
     {
         // Write code here
-        int fi=0;
+     int fmax=nums[0];   //887543
+     int smax=0;
+     for(int i=1;i<nums.length;i++)
+     {
+        if(nums[i]==fmax)
+        {
+            continue;
+        }
+        else if(nums[i]>fmax)
+        {
+            smax=fmax;
+            fmax=nums[i];
+        }
+        else if(nums[i]>smax)
+        {
+            smax=nums[i];
+        }
+     }
+     if(smax==0)
+     {
+        return -1;
+     }
+    return smax;
+    }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n= sc.nextInt();
+        int[] arr= new int[n];
+
+        for(int i=0;i<n;i++)
+            arr[i]=sc.nextInt();
+            
+        SecondLargest(arr,n);
+        sc.close();
+        
+    }    
+}
+/*
+ int fi=0;
         int si=0;
         if(arr[0]>arr[1])
         {
@@ -30,19 +70,4 @@ public static void SecondLargest(int[] arr, int n)
          }
         }
         System.out.print(si);
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int n= sc.nextInt();
-        int[] arr= new int[n];
-
-        for(int i=0;i<n;i++)
-            arr[i]=sc.nextInt();
-            
-        SecondLargest(arr,n);
-        sc.close();
-        
-    }    
-}
+*/
