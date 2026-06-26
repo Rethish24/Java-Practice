@@ -21,6 +21,29 @@ public class roatate_array {
            reverse(nums,0,n-1);
            reverse(nums,0,k-1);
            reverse(nums,k,n-1);   
+        /*
+        int n=nums.length;
+           k=k%n;
+           if(k<0)
+           {
+            k=k+n;
+           }
+           int []kc=new int[k];
+           int x=0;
+           for(int i=n-k;i<n;i++)
+           {
+            kc[x]=nums[i];
+            x++;
+           }
+          for(int i=n-1;i>=k;i--)
+          {
+            nums[i]=nums[i-k];
+          }
+          for(int i=0;i<k;i++)
+          {
+            nums[i]=kc[i];
+          }
+        */
     }
 
   
