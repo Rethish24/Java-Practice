@@ -18,6 +18,24 @@ public class subarray_sum_divisible_by_k
     public static int subarrayDivisbleByK(int arr[], int n, int t)
     {
         // Write code here
+      /*
+                          ----alternate----
+        int count=0; 
+        for(int i=0;i<n;i++)
+        {
+            int sum=0;
+            for(int j=i;j<n;j++)
+            {
+                sum=sum+arr[j];
+               if(sum%t==0)
+               {
+                count++;
+               }
+            }
+        }
+        return count;
+    }
+      */
         int count=0; 
         for(int i=0;i<n;i++)
         {
